@@ -1,0 +1,28 @@
+{
+  "name": "telegram-cryptotrader",
+  "version": "1.0.0",
+  "description": "Telegram Bot for cryptocurrency traders",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "libertylocked",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/libertylocked/telegram-cryptotrader"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "botgram": "^2.0.1",
+    "dotenv": "^4.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "web3": "^0.20.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
