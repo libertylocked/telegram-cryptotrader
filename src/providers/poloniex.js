@@ -9,7 +9,7 @@ const getLastPrice = (tickerData, base, quote) => {
 };
 
 module.exports = (base, quote) => {
-  const redisKey = `Poloniex:${base}-${quote}`;
+  const redisKey = "Poloniex";
   const requestURL = "https://poloniex.com/public?command=returnTicker";
 
   return redisClient.getAsync(redisKey).then((tickerData) => {
