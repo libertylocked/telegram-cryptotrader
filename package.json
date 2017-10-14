@@ -19,6 +19,7 @@
     "botgram": "^2.0.1",
     "dotenv": "^4.0.0",
     "isomorphic-fetch": "^2.2.1",
+    "redis": "^2.8.0",
     "web3": "^0.20.2"
   },
   "devDependencies": {
