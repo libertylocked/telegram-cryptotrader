@@ -5,8 +5,8 @@ const subcommands = require("./eth-subcommands");
 const handler = (msg, reply) => {
   const [subcommand, ...args] = msg.args(2);
   if (!subcommand) {
-    reply.text("Subcommand required.\nAvailable commands are: " +
-      Object.keys(subcommands).join(", "));
+    reply.text("Subcommand required.\nAvailable subcommands are:\n\n" +
+      Object.keys(subcommands).join("\n"));
     return;
   }
 

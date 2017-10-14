@@ -5,8 +5,6 @@ module.exports = {
   "transaction": require("./transaction"),
   "tx": require("./transaction"), // alias
   "transactionReceipt": require("./transactionReceipt"),
-  "receipt": require("./transactionReceipt"), // alias
   "txReceipt": require("./transactionReceipt"), // alias
-  "node": require("./version"),
-  "version": require("./version"), // alias
+  "version": require("./version"),
 };
