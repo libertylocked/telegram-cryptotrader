@@ -2,7 +2,7 @@ const providers = require("../providers");
 
 const handler = (msg, reply) => {
   const args = msg.args(2);
-  let baseCurrency = args[0] || "BTC";
+  let baseCurrency = args[0] || "ETH";
   let quoteCurrency = args[1] || "USD";
   if (!/^[a-zA-Z0-9]+$/.test(baseCurrency) || !/^[a-zA-Z0-9]+$/.test(quoteCurrency)) {
     reply.text("Invalid input currency");
